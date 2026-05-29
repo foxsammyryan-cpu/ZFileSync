@@ -34,7 +34,7 @@ It runs silently in the system tray, continues syncing after the window is close
 
 | Platform | Installer |
 |----------|-----------|
-| 🐧 **Linux** | `.AppImage` · `.deb` — [zsync.eu/zfilesync](https://zsync.eu/zfilesync/) |
+| 🐧 **Linux** | `.AppImage` · `.deb` · `.rpm`  — [zsync.eu/zfilesync](https://zsync.eu/zfilesync/) |
 | 🪟 **Windows** | `.msi` · `.exe` — [zsync.eu/zfilesync](https://zsync.eu/zfilesync/) |
 
 </div>
