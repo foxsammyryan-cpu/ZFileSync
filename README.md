@@ -9,7 +9,7 @@
   <p>
     <a href="https://zsync.eu/zfilesync/"><img alt="Website" src="https://img.shields.io/badge/website-zsync.eu%2Fzfilesync-7CFFB2?style=flat-square&labelColor=0B0D10"></a>
     <a href="https://github.com/TheHolyOneZ/ZFileSync"><img alt="GitHub" src="https://img.shields.io/badge/source-GitHub-7CFFB2?style=flat-square&logo=github&labelColor=0B0D10"></a>
-    <a href="https://zsync.eu/zfilesync/"><img alt="Downloads" src="https://img.shields.io/badge/Download-7CFFB2?style=flat-square&labelColor=0B0D10"></a>
+    <a href="https://github.com/TheHolyOneZ/ZFileSync/releases"><img alt="Downloads" src="https://img.shields.io/github/downloads/TheHolyOneZ/ZFileSync/total?style=flat-square&labelColor=0B0D10&color=7CFFB2"></a>
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-7CFFB2?style=flat-square&labelColor=0B0D10"></a>
     <img alt="Platform" src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows-7CFFB2?style=flat-square&labelColor=0B0D10">
   </p>
@@ -180,6 +180,15 @@ If a synced file is deleted and later recreated at the same path:
 ## License
 
 ZFileSync is free software released under the **GNU General Public License v3.0**.
+
+```
+Copyright (C) 2025 TheHolyOneZ
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+```
 
 See [LICENSE](LICENSE) for the full text, or visit [gnu.org/licenses/gpl-3.0](https://www.gnu.org/licenses/gpl-3.0.html).
 
