@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg: #0a0c10;
+  --color-surface: #12161c;
+  --color-surface-2: #181d25;
+  --color-border: #232932;
+  --color-border-2: #2c333d;
+  --color-accent: #7cffb2;
+  --color-accent-dim: #4bd48a;
+  --color-warning: #ffc857;
+  --color-danger: #ff6b6b;
+  --color-info: #6ec1ff;
+  --color-text: #e8ecf3;
+  --color-muted: #8b95a3;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+    scrollbar-width: thin;
+    scrollbar-color: #232932 transparent;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #232932;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #2c333d;
+  }
+
+  input,
+  textarea,
+  select {
+    font-family: inherit;
+  }
+}
+
+@layer utilities {
+  .app-bg {
+    background:
+      radial-gradient(1200px 600px at 0% 0%, rgba(124, 255, 178, 0.04), transparent 60%),
+      radial-gradient(900px 500px at 100% 100%, rgba(110, 193, 255, 0.03), transparent 60%),
+      var(--color-bg);
+  }
+
+  .glass {
+    background: rgba(18, 22, 28, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+}

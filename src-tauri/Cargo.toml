@@ -1,0 +1,38 @@
+[package]
+name = "zfilesync"
+version = "0.1.0"
+description = "Real-time file/folder sync utility"
+authors = []
+license = ""
+repository = ""
+edition = "2021"
+rust-version = "1.77.2"
+
+[lib]
+name = "zfilesync_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["tray-icon", "image-png", "image-ico"] }
+tauri-plugin-dialog = "2"
+tauri-plugin-notification = "2"
+tauri-plugin-autostart = "2"
+tauri-plugin-single-instance = "2"
+tauri-plugin-log = "2"
+tauri-plugin-opener = "2"
+
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+notify = "6"
+notify-debouncer-full = "0.3"
+rusqlite = { version = "0.31", features = ["bundled"] }
+globset = "0.4"
+walkdir = "2"
+blake3 = "1"
+thiserror = "1"
+uuid = { version = "1", features = ["v4", "serde"] }
+tempfile = "3"
+log = "0.4"
