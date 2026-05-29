@@ -9,7 +9,7 @@
   <p>
     <a href="https://zsync.eu/zfilesync/"><img alt="Website" src="https://img.shields.io/badge/website-zsync.eu%2Fzfilesync-7CFFB2?style=flat-square&labelColor=0B0D10"></a>
     <a href="https://github.com/TheHolyOneZ/ZFileSync"><img alt="GitHub" src="https://img.shields.io/badge/source-GitHub-7CFFB2?style=flat-square&logo=github&labelColor=0B0D10"></a>
-    <a href="https://zsync.eu/zfilesync/"><img alt="Downloads" src="https://img.shields.io/github/downloads/TheHolyOneZ/ZFileSync/total?style=flat-square&labelColor=0B0D10&color=7CFFB2"></a>
+    <a href="https://zsync.eu/zfilesync/"><img alt="Downloads" src="https://img.shields.io/badge/Download here-7CFFB2?style=flat-square&labelColor=0B0D10"></a>
     <a href="LICENSE"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0-7CFFB2?style=flat-square&labelColor=0B0D10"></a>
     <img alt="Platform" src="https://img.shields.io/badge/platform-Linux%20%7C%20Windows-7CFFB2?style=flat-square&labelColor=0B0D10">
   </p>
